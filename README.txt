@@ -21,7 +21,7 @@ to take an arbitrary MIP as .lp file or .mps file as input and to create
     3. the constraint matrix of constraints that contain integer and continuous variables, of the integer variables
     4. a solution of the original problem as .sol file
     5. an approximate (25%) solution of the original problem, as .sol file
-    6. different auxiliary files
+    6. some auxiliary files
     
 These files are compatible with compare_css.py, which reads instances in the described format.
 (type "python3 instance_prep.py --help" for further information)

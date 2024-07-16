@@ -9,7 +9,7 @@ The program is dedicated to compare cut selection strategies for Benders Decompo
 The program takes a mixed-integer linear program in appropriate file format (.lp or .mps)
 as input and solves it with Benders Decomposition.
 
-# First: PREPARE an instance; type
+# First: Prepare an instance; type
 
 python3 instance_prep.py -i <INPUT_FOLDER> -o <OUTPUT_FOLDER> <INSTANCE_NAME>
 e.g.,
